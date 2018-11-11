@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="groups">
+    <test name="grouptest">
+    <classes>
+        <class name="com.study.test.groups.GroupOnClass1"/>
+        <class name="com.study.test.groups.GroupOnClass2"/>
+        <class name="com.study.test.groups.GroupOnClass3"/>
+    </classes>
+    </test>
+
+    <test name="groupruntest">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.study.test.groups.GroupOnClass1"/>
+            <class name="com.study.test.groups.GroupOnClass2"/>
+            <class name="com.study.test.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+
+
+</suite>
