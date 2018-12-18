@@ -8,6 +8,11 @@
       <list>
         <option value="$PROJECT_DIR$/interface/pom.xml" />
         <option value="$PROJECT_DIR$/Presentation/pom.xml" />
+        <option value="$PROJECT_DIR$/httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/sprintboot/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatismysql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatismysqldata/pom.xml" />
       </list>
     </option>
   </component>

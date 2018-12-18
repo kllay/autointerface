@@ -1,0 +1,101 @@
+[
+  {
+    "description":"这是一个会返回cookies的get请求",
+    "request":{
+      "uri":"/getCoolies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"恭喜你获得cookies信息"
+    }
+  },
+  {
+    "description":"这是一个cookie的get请求",
+    "request":{
+      "uri":"/get/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个带cookies的get请求"
+    }
+
+  },
+  {
+    "description":"这是一个post的cookie请求",
+    "request":{
+      "uri":"/post/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "unames":"testing",
+        "age":"17"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "unames":"testing",
+        "status":"1"
+      }
+    }
+
+  },
+  {
+    "description":"这是一个header的post请求",
+    "request":{
+      "uri":"/post/headers",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"xiaozhu",
+        "sex":"22"
+      }
+    },
+    "response":{
+      "json":{
+        "wanglaosi":"hhhhhhhhhhhh",
+        "status":"200"
+      }
+    }
+
+  },
+  {
+    "description":"重定向百度 重定向",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"重定向到一个自己的网页上",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+      "redirectTo":"/redirect/new"
+  },
+  {
+    "description":"这是被重定向到的请求",
+      "request":{
+        "uri":"/redirect/new"
+      },
+      "response":{
+        "text":"重定向成功了!sucess!!!"
+      }
+
+  }
+
+
+
+
+
+]

@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="httpclient" />
         <module name="interface" />
+        <module name="mybatis" />
+        <module name="mybatismysql" />
+        <module name="mybatismysqldata" />
         <module name="Presentation" />
+        <module name="sprintboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="httpclient" target="1.5" />
       <module name="interface" target="1.5" />
+      <module name="mybatis" target="1.8" />
+      <module name="mybatismysql" target="1.8" />
+      <module name="mybatismysqldata" target="1.8" />
       <module name="Presentation" target="6" />
+      <module name="sprintboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,29 @@
+[
+  {
+    "description":"这是一个无参数的get请求",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"哈哈哈哈啊 这个是get请求"
+    }
+
+  },{
+      "description":"这是一个无参数的get请求",
+      "request":{
+        "uri":"/getcs",
+        "method":"get",
+        "queries":{
+          "name":"test",
+          "age":"23"
+        }
+      },
+      "response":{
+        "text":"有参数的get请求发顺丰  "
+      }
+  }
+
+]
+
+

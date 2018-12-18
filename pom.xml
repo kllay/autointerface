@@ -12,6 +12,7 @@
     <modules>
         <module>interface</module>
         <module>Presentation</module>
+        <module>httpclient</module>
     </modules>
 </project>
 

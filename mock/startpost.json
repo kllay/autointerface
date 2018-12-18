@@ -1,0 +1,28 @@
+[
+  {
+  "description":"这是第一个例子",
+  "request":{
+    "uri":"/demopost",
+    "method":"post"
+  },
+  "response":{
+    "text":"这是post请求"
+  }
+},
+  {
+    "description":"这是第一个例子",
+    "request":{
+      "uri":"/demopostcs",
+      "method":"post",
+      "forms":{
+        "name":"test",
+        "age":"23"
+      }
+    },
+    "response":{
+      "text":"这是post请求带参数的"
+    }
+  }
+
+
+]

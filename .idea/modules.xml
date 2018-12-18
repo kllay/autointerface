@@ -4,7 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Presentation/Presentation.iml" filepath="$PROJECT_DIR$/Presentation/Presentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/autointerface.iml" filepath="$PROJECT_DIR$/.idea/autointerface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatismysql/mybatismysql.iml" filepath="$PROJECT_DIR$/mybatismysql/mybatismysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatismysqldata/mybatismysqldata.iml" filepath="$PROJECT_DIR$/mybatismysqldata/mybatismysqldata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprintboot/sprintboot.iml" filepath="$PROJECT_DIR$/sprintboot/sprintboot.iml" />
     </modules>
   </component>
 </project>
